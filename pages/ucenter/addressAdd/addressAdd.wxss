@@ -19,6 +19,10 @@ page {
   padding-right: 31.25rpx;
 }
 
+.add-address .field-name {
+  margin-right: 30rpx;
+}
+
 .add-address .input {
   flex: 1;
   height: 44rpx;
