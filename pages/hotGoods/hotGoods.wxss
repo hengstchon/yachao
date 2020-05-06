@@ -146,6 +146,7 @@ page {
   display: block;
   width: 365.625rpx;
   height: 35rpx;
+  line-height: 35rpx;
   padding: 0 20rpx;
   overflow: hidden;
   margin: 11.5rpx 0 22rpx 0;

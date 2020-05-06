@@ -57,6 +57,7 @@
 .cate-item .h .name {
   display: block;
   height: 35rpx;
+  line-height: 35rpx;
   margin-bottom: 18rpx;
   font-size: 30rpx;
   color: #333;
@@ -100,6 +101,7 @@
   display: block;
   width: 365.625rpx;
   height: 35rpx;
+  line-height: 35rpx;
   margin: 11.5rpx 0 22rpx 0;
   text-align: center;
   overflow: hidden;

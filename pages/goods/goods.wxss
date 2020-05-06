@@ -546,7 +546,8 @@
 .related-goods .item .name {
   display: block;
   width: 311.45rpx;
-  height: 35rpx;
+  line-height: 35rpx;
+ height: 35rpx;
   margin: 11.5rpx 0 15rpx 0;
   text-align: center;
   overflow: hidden;
