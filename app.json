@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/auth/register/register",
     "pages/index/index",
     "pages/catalog/catalog",
     "pages/newGoods/newGoods",
@@ -17,6 +16,7 @@
     "pages/ucenter/collect/collect",
     "pages/auth/login/login",
     "pages/auth/accountLogin/accountLogin",
+    "pages/auth/register/register",
     "pages/auth/reset/reset",
     "pages/payResult/payResult",
     "pages/comment/comment",

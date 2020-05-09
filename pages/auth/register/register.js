@@ -97,7 +97,6 @@ Page({
           });
         }
 
-        console.log('res', res)
         that.requestRegister(res.code);
       }
     });
