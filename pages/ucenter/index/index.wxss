@@ -106,8 +106,9 @@ page {
 }
 
 .user_column_item_badge {
-  height: 28rpx;
-  width: 28rpx;
+  font-size: 24rpx;
+  height: 36rpx;
+  width: 36rpx;
   position: absolute;
   background: #b4282d;
   color: #fff;

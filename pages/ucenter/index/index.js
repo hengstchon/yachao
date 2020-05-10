@@ -71,6 +71,8 @@ Page({
     if (this.data.hasLogin) {
       let tab = e.currentTarget.dataset.index;
       let route = e.currentTarget.dataset.route;
+      console.log('tab!@!:', tab)
+      console.log('route!@!:', route)
       try {
         wx.setStorageSync("tab", tab);
       } catch (e) {}

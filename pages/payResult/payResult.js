@@ -29,35 +29,4 @@ Page({
     // 页面关闭
 
   },
-  payOrder() {
-    let that = this;
-    util.request(api.OrderPrepay, {
-      orderId: that.data.orderId
-    }, 'POST').then(function(res) {
-      if (res.errno === 0) {
-        const payParam = res.data;
-        console.log("支付过程开始")
-        wx.requestPayment({
-          'timeStamp': payParam.timeStamp,
-          'nonceStr': payParam.nonceStr,
-          'package': payParam.packageValue,
-          'signType': payParam.signType,
-          'paySign': payParam.paySign,
-          'success': function(res) {
-            console.log("支付过程成功")
-            that.setData({
-              status: true
-            });
-          },
-          'fail': function(res) {
-            console.log("支付过程失败")
-            util.showErrorToast('支付失败');
-          },
-          'complete': function(res) {
-            console.log("支付过程结束")
-          }
-        });
-      }
-    });
-  }
 })
