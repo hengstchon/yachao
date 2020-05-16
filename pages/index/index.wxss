@@ -73,17 +73,15 @@
 }
 
 .a-brand .wrap {
-  position: relative;
 }
 
 .a-brand .img {
-  position: absolute;
   left: 0;
   top: 0;
 }
 
 .a-brand .mt {
-  position: absolute;
+  text-align: center;
   z-index: 2;
   padding: 27rpx 31rpx;
   left: 0;
@@ -91,21 +89,18 @@
 }
 
 .a-brand .mt .brand {
-  display: block;
-  font-size: 33rpx;
+  font-size: 30rpx;
   height: 43rpx;
-  color: #fff;
 }
 
 .a-brand .mt .price, .a-brand .mt .unit {
+  margin-left: 6rpx;
   font-size: 25rpx;
-  color: #fff;
 }
 
 .a-brand .item-1 {
   float: left;
   width: 375rpx;
-  height: 252rpx;
   overflow: hidden;
   border-top: 1rpx solid #fff;
   margin-left: 1rpx;
@@ -118,7 +113,7 @@
 
 .a-brand .item-1 .img {
   width: 375rpx;
-  height: 253rpx;
+  height: 150rpx;
 }
 
 .a-coupon {

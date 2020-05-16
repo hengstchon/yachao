@@ -58,7 +58,7 @@
     </view>
     <view class="order-item">
       <view class="l">
-        <text class="name">运费</text>
+        <text class="name">运费（满 69 欧免运费）</text>
       </view>
       <view class="r">
         <text class="txt">€ {{freightPrice}}欧</text>

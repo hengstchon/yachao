@@ -95,7 +95,7 @@
 	<view class="a-section a-brand">
 		<view class="h">
 			<navigator url="../brand/brand">
-				<text class="txt">品牌制造商直供</text>
+				<text class="txt">品牌商</text>
 			</navigator>
 		</view>
 		<view class="b">

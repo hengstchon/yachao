@@ -6,14 +6,13 @@ page {
   width: 100%;
   height: 290rpx;
   position: relative;
+  background: #fff;
 }
 
 .brand-info .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: block;
   height: 290rpx;
+  margin: 0 auto;
 }
 
 .brand-info .info-box {
