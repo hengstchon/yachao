@@ -389,6 +389,7 @@
 }
 
 .detail {
+  padding: 0 30rpx;
   width: 750rpx;
   height: auto;
   overflow: hidden;
