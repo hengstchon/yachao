@@ -92,7 +92,7 @@
 		</view>
 	</view>
 
-	<view class="a-section a-brand">
+  <view class="a-section a-brand" wx:if="{{brands.length > 0}}">
 		<view class="h">
 			<navigator url="../brand/brand">
 				<text class="txt">品牌商</text>
@@ -179,6 +179,7 @@
 			</scroll-view>
 		</view>
 	</view>
+
 	<view class="good-grid" wx:for="{{floorGoods}}" wx:key="id">
 		<view class="h">
 			<text>{{item.name}}</text>
