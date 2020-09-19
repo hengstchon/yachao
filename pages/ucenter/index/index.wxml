@@ -27,11 +27,7 @@
       <view class='user_column_item' bindtap='goOrderIndex' data-index='4' data-route='/pages/ucenter/order/order'>
         <text class="user_column_item_badge" wx:if="{{order.uncomment != 0}}">{{order.uncomment}}</text>
         <image class='user_column_item_image' src='/static/images/comment.png'></image>
-        <view class='user_column_item_text'>待评价</view>
-      </view>
-      <view class='user_column_item' bindtap='goAfterSale'>
-        <image class='user_column_item_image' src='/static/images/aftersale.png'></image>
-        <view class='user_column_item_text'>售后</view>
+        <view class='user_column_item_text'>已完成</view>
       </view>
     </view>
   </view>
@@ -54,10 +50,6 @@
     <view class='user_column_item' bindtap='goFootprint'>
       <image class='user_column_item_image' src='/static/images/footprint.png'></image>
       <view class='user_column_item_text'>浏览足迹</view>
-    </view>
-    <view class='user_column_item' bindtap='goGroupon'>
-      <image class='user_column_item_image' src='/static/images/group.png'></image>
-      <view class='user_column_item_text'>我的拼团</view>
     </view>
 
     <view class='user_column_item' bindtap='goAddress'>
