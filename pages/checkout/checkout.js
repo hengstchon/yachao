@@ -37,6 +37,7 @@ Page({
       grouponRulesId: that.data.grouponRulesId
     }).then(function(res) {
       if (res.errno === 0) {
+        console.log("checkedGoodsList: ", res.data.checkedGoodsList)
         that.setData({
           checkedGoodsList: res.data.checkedGoodsList,
           checkedAddress: res.data.checkedAddress,
