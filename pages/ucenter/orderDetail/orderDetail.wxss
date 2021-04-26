@@ -184,35 +184,31 @@ page {
 }
 
 .order-bottom .address {
-  height: 128rpx;
-  padding-top: 25rpx;
+  padding: 25rpx;
   border-top: 1px solid #f4f4f4;
   border-bottom: 1px solid #f4f4f4;
 }
 
 .order-bottom .address .t {
-  height: 35rpx;
   line-height: 35rpx;
   margin-bottom: 7.5rpx;
 }
 
 .order-bottom .address .name {
   display: inline-block;
-  height: 35rpx;
-  width: 140rpx;
   line-height: 35rpx;
   font-size: 30rpx;
 }
 
 .order-bottom .address .mobile {
   display: inline-block;
+  margin-left: 20rpx;
   height: 35rpx;
   line-height: 35rpx;
   font-size: 30rpx;
 }
 
 .order-bottom .address .b {
-  height: 35rpx;
   line-height: 35rpx;
   font-size: 30rpx;
 }
